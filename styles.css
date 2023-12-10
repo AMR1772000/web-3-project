@@ -1,0 +1,55 @@
+body{
+    background-color:rgb(20, 30, 40);
+    color: linen;
+}
+html{
+    font-size:20px;
+}
+main{
+    margin-left:250px;
+}
+#navbar {
+position:fixed;
+    left:0;
+    top:0;
+    width:200px;
+    height:100vh;
+    padding:20px;
+}
+.nav-link{
+    display: block;
+    padding: 10px 0; 
+    text-decoration: none;
+}
+a:hover {
+    background-color: #00beef;
+    color: linen;
+}
+a{
+    color:linen;
+}
+header{
+    font-family:sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    margin:10px;
+    color:orangered;
+    text-align:center;
+}
+code{
+    color:#00beef;
+    background-color:BLACK;
+    text-align: center;
+}
+hr {
+    margin: 1.5rem 0;
+    border: 1px solid rgba(120, 120, 120, 0.6);
+}
+.divider{
+    width: 1px;
+    height: 100vh;
+    background-color: #ccc;
+    position: fixed;
+    left: 240px;
+    top: 0;
+}
